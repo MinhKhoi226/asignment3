@@ -1,0 +1,60 @@
+body {
+    color: #212A3E;
+}
+table img {
+    position: absolute;
+    width: auto;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#nav-bar a:hover {
+    color: #212A3E;
+    text-decoration: none;
+}
+.bg-grey {
+    background-color: #F1F6F9;
+}
+.bg-grey-300 {
+    background-color: #e8edf0;
+}
+.bg-blue {
+    background-color: #199cdb;
+}
+.time {
+    color: #9BA4B5;
+    font-style: italic;
+    font-size: 14px;
+}
+.point span {
+    background: #199cdb;
+    display: inline-block;
+    height: 2px;
+    margin-right: 10px;
+    width: 45px;
+}
+#job-info p {
+    margin-bottom: 0;
+}
+#certificate p {
+    margin-bottom: 0;
+}
+#certificate h5 {
+    margin-bottom: 12px;
+}
+@media only screen and (max-width: 768px) {
+    #certificate {
+        display: block;
+    }
+    #certificate img {
+        width: 100%!important;
+    }
+    #border {
+        border: none!important;
+    }
+    #border1 {
+        border-top: 1px solid #dc3545;
+        padding-top: 48px;
+    }
+  }
